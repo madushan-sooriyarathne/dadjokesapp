@@ -1,0 +1,13 @@
+.Joke {
+  display: grid;
+  grid-template-columns: [col-start] min-content [joke-start] 1fr [emoji-start] min-content[col-end];
+  gap: 1rem;
+  align-items: center;
+  padding: 1rem;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.15);
+}
+
+.Joke-text {
+  grid-column: joke-start / emoji-start;
+  font-size: 1.5rem;
+}

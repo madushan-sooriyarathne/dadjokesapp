@@ -1,0 +1,28 @@
+.LoadingAnimation {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.LoadingAnimation-rollingFace {
+  height: 8rem;
+  animation: 1s roll infinite;
+}
+
+.LoadingAnimation-text {
+  font-size: 5rem;
+  font-weight: 700;
+  color: goldenrod;
+}
+
+@keyframes roll {
+  0% {
+    transform: rotate(0);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}

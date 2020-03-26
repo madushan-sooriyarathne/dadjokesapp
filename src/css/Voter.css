@@ -1,0 +1,27 @@
+.Voter {
+  grid-column: col-start / joke-start;
+
+  display: flex;
+  align-items: center;
+}
+
+.Voter-score {
+  width: 4rem;
+  height: 4rem;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  border: 2px solid green;
+
+  box-shadow: 2px 8px 10px rgba(0, 0, 0, 0.25);
+}
+
+.Voter-btn {
+  padding: 1rem;
+  font-size: 2rem;
+  outline: none;
+  border: none;
+  background-color: transparent;
+}

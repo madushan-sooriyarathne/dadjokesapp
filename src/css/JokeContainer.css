@@ -1,0 +1,46 @@
+.JokeContainer {
+  grid-column: start / end;
+  min-width: 60rem;
+
+  display: grid;
+  grid-template-columns: repeat(2, min-content);
+
+  justify-items: center;
+
+  background-color: white;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15);
+
+  border-radius: 10px;
+}
+
+.Joke-Section {
+  grid-column: 2 / -1;
+
+  min-width: 60rem;
+  overflow: auto;
+  height: 50rem;
+}
+
+.Joke-Section::-webkit-scrollbar {
+  display: none;
+}
+
+@media only screen and (max-width: 50em) {
+  .JokeContainer {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(2, min-content);
+
+    gap: 3rem;
+  }
+
+  .Joke-Section {
+    grid-column: 1 / 2;
+    grid-row: 2 / 3;
+  }
+}
+
+@media only screen and (max-width: 37.5em) {
+  .JokeContainer {
+    box-shadow: none;
+  }
+}

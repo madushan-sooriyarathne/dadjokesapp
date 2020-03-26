@@ -1,0 +1,22 @@
+.App {
+  min-height: 100vh;
+
+  display: grid;
+  grid-template-columns: 1fr [start] min-content [end] 1fr;
+  justify-content: center;
+  justify-items: center;
+  align-content: center;
+
+  background: linear-gradient(
+    234.72deg,
+    #ff4b8c -0.35%,
+    #f7da74 52.44%,
+    #dd6b02 100%
+  );
+}
+
+@media only screen and (max-width: 37.5em) {
+  .App {
+    background: white;
+  }
+}
