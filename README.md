@@ -13,7 +13,7 @@ As always running this project in your local machine is very simple. Just follow
 1. clone the repo
 
 ```
-git clone https://github.com/madushan-sooriyarathne/card-deck-react.git
+git clone https://github.com/madushan-sooriyarathne/dadjokesapp.git
 ```
 
 2. Install required npm libraries
